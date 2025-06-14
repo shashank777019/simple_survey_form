@@ -1,0 +1,83 @@
+<!--This is Shashank and this is simple survery form using HTML and CSS-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Survey Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" placeholder="Enter your age" required><br><br>
+
+            <label for="work">Work Experience:</label>
+            <input type="radio" id="work1" name="work" value="0-2 years">
+            <label for="work1">0-2 years</label>
+            <input type="radio" id="work2" name="work" value="2-5 years">
+            <label for="work2">2-5 years</label>
+            <input type="radio" id="work3" name="work" value="5+ years">
+            <label for="work3">5+ years</label>
+            <br><br>
+
+            <label for="company">Current Company:</label>
+            <input type="text" id="company" name="company" placeholder="Enter your current company"><br><br>
+            <label for="position">Position:</label>
+            <input type="text" id="position" name="position" placeholder="Enter your position"><br><br>
+            <label for="experience">Years of Experience:</label>
+            <input type="number" id="experience" name="experience" min="0" placeholder="Enter years of experience"><br><br>
+            
+            <label>Skills:</label><br>
+            <input type="checkbox" id="skill1" name="skills" value="HTML">
+            <label for="skill1">HTML</label><br>
+            <input type="checkbox" id="skill2" name="skills" value="CSS">
+            <label for="skill2">CSS</label><br>
+            <input type="checkbox" id="skill3" name="skills" value="JavaScript">
+            <label for="skill3">JavaScript</label><br><br>
+            <label for="skill4">Other Skills:</label>
+            <input type="text" id="skill4" name="otherSkills" placeholder="Enter other skills"><br><br>
+            
+            <label for="rating">Rate your experience:</label><br>
+            <input type="radio" id="rating1" name="rating" value="1">
+            <label for="rating1">1</label>
+            <input type="radio" id="rating2" name="rating" value="2">
+            <label for="rating2">2</label>
+            <input type="radio" id="rating3" name="rating" value="3">
+            <label for="rating3">3</label>
+            <input type="radio" id="rating4" name="rating" value="4">
+            <label for="rating4">4</label>
+            <input type="radio" id="rating5" name="rating" value="5">
+            <label for="rating5">5</label>
+            <br><br>
+            
+
+            <label for="workplace">Workplace Environment:</label><br>
+            <input type="radio" id="workplace1" name="workplace" value="1">
+            <label for="workplace1">1</label>
+            <input type="radio" id="workplace2" name="workplace" value="2">
+            <label for="workplace2">2</label>
+            <input type="radio" id="workplace3" name="workplace" value="3">
+            <label for="workplace3">3</label>
+            <input type="radio" id="workplace4" name="workplace" value="4">
+            <label for="workplace4">4</label>
+            <input type="radio" id="workplace5" name="workplace" value="5">
+            <label for="workplace5">5</label>
+            <br><br>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
